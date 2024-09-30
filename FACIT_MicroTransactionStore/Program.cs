@@ -1,6 +1,4 @@
-﻿using System;
-
-int playerMoney = 100;
+﻿int playerMoney = 100;
 
 while (playerMoney > 0)
 {
@@ -62,3 +60,7 @@ while (playerMoney > 0)
     Console.WriteLine("Nej, det har du inte råd med!");
   }
 }
+
+Console.WriteLine("Nu har du slut på pengar!");
+Console.WriteLine("Tryck på ENTER för att avsluta");
+Console.ReadLine();
